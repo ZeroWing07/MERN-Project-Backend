@@ -58,7 +58,7 @@ router.put('/RemoveAllStudentsAtten/:id', clearAllStudentsAttendance);
 router.put('/RemoveStudentSubAtten/:id', removeStudentAttendanceBySubject);
 router.put('/RemoveStudentAtten/:id', removeStudentAttendance)
 
-// Student
+// Parent
 
 router.post('/ParentLogin', studentLogIn)
 
